@@ -1,0 +1,22 @@
+{
+  "name": "02-expressapi",
+  "version": "1.0.0",
+  "description": "example generated with http://www.initializr.com/",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "lint": "node_modules/.bin/jshint .",
+    "build": "npm run lint  && npm test",
+    "app": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jshint": "^2.9.6",
+    "mocha": "^5.2.0"
+  }
+}
